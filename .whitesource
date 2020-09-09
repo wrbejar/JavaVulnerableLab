@@ -8,6 +8,10 @@
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure"
   },
+  "remediateSettings": {
+    "enableRenovate": true,
+    "extends": ["config:base"]
+  },
   "issueSettings": {
     "minSeverityLevel": "LOW"
   }
