@@ -1,0 +1,18 @@
+{
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "projectToken": "",
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure"
+  },
+  "remediateSettings": {
+    "enableRenovate": true,
+    "extends": ["config:base"]
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW"
+  }
+}
